@@ -1,0 +1,12 @@
+.pageContainerDiv {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 16pt;
+}
+
+@media (max-width: 768px) {
+  .pageContainerDiv {
+    width: 100%;
+    margin: 0;
+  }
+}

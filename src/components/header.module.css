@@ -1,0 +1,9 @@
+.titleSmall {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
