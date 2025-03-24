@@ -1,11 +1,20 @@
 import styles from "./header.module.css";
+import MenuBar from "./menubar";
 
 export const Header = () => {
   return (
-    <header className={styles.header}>
-      <h1 className="text-2xl font-bold">Naked Tails cattery</h1>
-      <div className={styles.titleSmall}>
-        Don Sphynx cats in Stockholm, Sweden
+    <header>
+      <div className="flex flex-col w-full">
+        <div className="flex flex-row w-full justify-between">
+          <h1 className="text-2xl font-bold">Naked Tails cattery</h1>
+          <div className={styles.titleSmall}>
+            Don Sphynx cats in Stockholm, Sweden
+          </div>
+        </div>
+        <div className={styles.topBanner}></div>
+        <div className="flex flex-row w-full justify-between">
+          <MenuBar />
+        </div>
       </div>
       {/* <Image
           className="dark:invert"

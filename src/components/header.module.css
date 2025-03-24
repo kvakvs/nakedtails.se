@@ -3,7 +3,12 @@
   font-style: italic;
 }
 
-.header {
-  display: flex;
-  justify-content: space-evenly;
+.topBanner {
+  background-image: url("/images/cropped-dsc1949-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  clear: both;
 }
