@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* --background: #ededed;
+  --foreground: #0a0a0a; */
   --link-color: #d73;
 }
 
@@ -13,17 +15,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #ededed;
-    --foreground: #0a0a0a;
-  }
+
+[data-theme="light"] {
+  --background: #ededed;
+  --foreground: #0a0a0a;
 }
 
 body {
