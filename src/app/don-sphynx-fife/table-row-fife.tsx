@@ -17,7 +17,7 @@ export function TableRowFife({ col1, col2, col3 }: TableRowProps) {
         className={twMerge(
           "flex-1",
           "p-2",
-          "border-gray-200",
+          "border-gray-400",
           "font-bold",
           "border-t"
         )}
@@ -28,14 +28,14 @@ export function TableRowFife({ col1, col2, col3 }: TableRowProps) {
         className={twMerge(
           "flex-1",
           "p-2",
-          "border-gray-200",
+          "border-gray-400",
           "italic",
           "border-t"
         )}
       >
         {col2}
       </div>
-      <div className={twMerge("flex-4", "p-2", "border-gray-200", "border-t")}>
+      <div className={twMerge("flex-4", "p-2", "border-gray-400", "border-t")}>
         {col3}
       </div>
     </div>

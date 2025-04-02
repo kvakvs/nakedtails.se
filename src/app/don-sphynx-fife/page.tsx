@@ -10,7 +10,7 @@ export default function DonSphynxFife() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1>FIFE Race Standard</h1>
 
-        <div className="flex flex-col w-full max-w-4xl border border-gray-200 rounded-lg">
+        <div className="flex flex-col w-full border border-gray-200 rounded-lg">
           <TableRowFife
             col1="General"
             col2="Appearance"
