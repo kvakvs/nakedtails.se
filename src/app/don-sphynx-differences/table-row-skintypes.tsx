@@ -28,24 +28,18 @@ export function TableRowSkinTypes(props: TableRowProps) {
       >
         {props.col1}
       </div>
-      <div className={twMerge("flex-2", "p-2", "border-gray-400", "border-t")}>
+      <div className="flex-2 p-2 border-gray-400 border-t">
         {props.donsphynx}
       </div>
-      <div className={twMerge("flex-2", "p-2", "border-gray-400", "border-t")}>
+      <div className="flex-2 p-2 border-gray-400 border-t">
         {props.canadian}
       </div>
-      <div className={twMerge("flex-2", "p-2", "border-gray-400", "border-t")}>
+      <div className="flex-2 p-2 border-gray-400 border-t">
         {props.peterbold}
       </div>
-      <div className={twMerge("flex-2", "p-2", "border-gray-400", "border-t")}>
-        {props.levkoy}
-      </div>
-      <div className={twMerge("flex-2", "p-2", "border-gray-400", "border-t")}>
-        {props.elf}
-      </div>
-      <div className={twMerge("flex-2", "p-2", "border-gray-400", "border-t")}>
-        {props.bambino}
-      </div>
+      <div className="flex-2 p-2 border-gray-400 border-t">{props.levkoy}</div>
+      <div className="flex-2 p-2 border-gray-400 border-t">{props.elf}</div>
+      <div className="flex-2 p-2 border-gray-400 border-t">{props.bambino}</div>
     </div>
   );
 }

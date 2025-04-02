@@ -1,115 +1,113 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import styles from "../page.module.css";
-import { TableHeadSkinTypes } from "./table-head-skintypes";
-import { TableRowSkinTypes } from "./table-row-skintypes";
+import Image from "next/image";
+import lana from "./images/naked-lana.webp";
+import bolero from "./images/naked-undressing-bolero.jpg";
+import nakedUndressing2 from "./images/naked-undressing-2.jpg";
+import galaxy from "./images/subtle-flock-galaxy.jpg";
+import vivien from "./images/flock-vivien.webp";
+import anton from "./images/velours-down-anton.jpg";
+import kiona from "./images/brush-kiona.jpg";
 
 export default function DonSphynxSkinTypes() {
   return (
     <div className={styles.pageContainerDiv}>
       <Header />
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1>Variations in Skin Types of Don Sphynx</h1>
-        <TableHeadSkinTypes />
-        <TableRowSkinTypes
-          col1="Origin of the breed"
-          donsphynx="Natural mutation"
-          canadian="Natural mutation"
-          peterbold="Natural mutation"
-          levkoy="Natural mutation"
-          elf="Natural mutation"
-          bambino="Natural mutation"
-        />
-        <TableRowSkinTypes
-          col1="Country and year of origin"
-          donsphynx="1986 USSR (now Russia)"
-          canadian="1966 Canada"
-          peterbold="1994 Russia"
-          levkoy="2004 Ukraine"
-          elf="2006 USA"
-          bambino="2000 USA"
-        />
-        <TableRowSkinTypes
-          col1="FIFE Classification Code"
-          donsphynx="DSP"
-          canadian="SPH"
-          peterbold="PEB"
-          levkoy="not recognized"
-          elf="not recognized"
-          bambino="not recognized"
-        />
-        <TableRowSkinTypes
-          col1="General view"
-          donsphynx="Medium, with strong muscles."
-          canadian="Medium, dense body, surprising weight for its size."
-          peterbold="Medium"
-          levkoy="Medium"
-          elf="Medium"
-          bambino="Medium"
-        />
-        <TableRowSkinTypes
-          col1="Head"
-          donsphynx="Wedge shaped, slightly longer than broad, with prominent eye brows."
-          canadian="Modified wedge with rounded contours, slightly longer than wide."
-          peterbold="Medium size, proportional to the body, well balanced."
-          levkoy="The head is angular, flat and long."
-          elf="Modified wedge with rounded contours, slightly longer than wide."
-          bambino="Modified wedge with rounded contours, slightly longer than wide."
-        />
-        <TableRowSkinTypes
-          col1="Ears"
-          donsphynx="Large, tapering to rounded tips. The inside is totally hairless."
-          canadian="Large, broad at base and open, slightly rounded tips."
-          peterbold="Large and pointed, wide at the base. Ears continue the lines of the wedge"
-          levkoy="The ears are wide set, roundly bent at the folds, the rest is straight."
-          elf="Cats  have ears that start out normal, but gradually curl backwards."
-          bambino="Slight amount of hair allowed on lower outer side edges and on the back of the ear."
-        />
-        <TableRowSkinTypes
-          col1="Eyes"
-          donsphynx="Almond-shaped, slightly slanting upwards, medium in size and open."
-          canadian="Lemon shaped, large, slanting to outer edge of ear. Slightly more than an eye's width between eyes."
-          peterbold="Medium in size, neither protruding nor recessed. Almond in shape and set slightly slanted towards the nose to be in harmony."
-          levkoy="The eyes are large, almond-shaped. Eye color can be anything, but preference is given to cats having blue or green eyes."
-          elf="Lemon shaped, large, slanting to outer edge of ear. Slightly more than an eye's width between eyes."
-          bambino="Lemon shaped, large, slanting to outer edge of ear. Slightly more than an eye's width between eyes."
-        />
-        <TableRowSkinTypes
-          col1="Body"
-          donsphynx="Medium long, medium strong and muscular."
-          canadian="Medium long, hard and muscular, not delicate. Full rounded abdomen, but not fat."
-          peterbold="Long and slender, well muscled but still dainty and elegant. The shoulders are not wider than the hips"
-          levkoy="The body has well-developed muscles. The chest is short and narrow."
-          elf="Medium long, hard and muscular, not delicate. Full rounded abdomen."
-          bambino="Medium long, hard and muscular, not delicate. Full rounded abdomen."
-        />
-        <TableRowSkinTypes
-          col1="Legs"
-          donsphynx="Medium long, medium strong in proportion to the body, hind legs longer than front legs"
-          canadian="Length in proportion with body, medium long. Hind legs slightly longer than the front ones. Front legs widely set. Medium boning, firm and muscular"
-          peterbold="Long and fine,  proportional to the body"
-          levkoy="The legs are long and slender. Paws are oval, with graceful fingers."
-          elf="Length in proportion with body, medium long. Hind legs slightly longer than front legs. Front legs widely set. Medium boning, firm and muscular"
-          bambino="Front: the same thickness throughout its length. Rear: thigh and calf of about the same length. Hind legs slightly longer and wider than front legs. Length: Short."
-        />
-        <TableRowSkinTypes
-          col1="Tail"
-          donsphynx="Slender, broader at base and tapering to the tip. Length is proportional to the body."
-          canadian="Medium length, thin, tapering from body to the tip."
-          peterbold="Very long; thin, also at the base; tapers to a fine point."
-          levkoy="Medium length, straight, strong and flexible."
-          elf="Medium length, thin, tapering from body to the tip."
-          bambino="Medium length, thin, tapering from body to the tip."
-        />
-        <TableRowSkinTypes
-          col1="Skin types"
-          donsphynx="Naked, Flock, Brush"
-          canadian="Naked, residual hair on the face"
-          peterbold="Naked, Flock, Brush"
-          levkoy="Naked, Flock, Brush"
-          elf="Naked, residual hair on the face"
-          bambino="Naked, residual hair on the face"
-        />
+        <h1>Variations in types of fur Don Sphynx</h1>
+        <p>
+          Note: The fur and hair that cover the body of a Don Sphynx is very
+          unstable and may change with time. It depends on the time of year and
+          on the hormonal status of the animal.
+        </p>
+        <h2>Naked</h2>
+        <div className="flex w-full">
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            <strong>“Proper naked“.</strong> These animals are like rubber to
+            the touch, sticky. They have no whiskers. Extremely rare. Never,
+            under any circumstances, do they have any hair e.g. Lana.
+          </div>
+
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            <Image src={lana} alt="Lana" className="w-full" />
+          </div>
+        </div>
+        <h2>Naked “undressing”.</h2>
+        <div className="flex w-full">
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            These cats are like the rubber to the touch, feel sticky. Unlike the
+            “proper naked” may have whiskers e.g. Bolero, Alex, Axel, Aston
+          </div>
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            <Image src={bolero} alt="Bolero" className="w-full" />
+            <Image
+              src={nakedUndressing2}
+              alt="A litter of still fuzzy kittens"
+              className="w-full"
+            />
+          </div>
+        </div>
+        <h2>Subtle flock.</h2>
+        <div className="flex w-full">
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            Evenly spaced microhairs up to 0.1 cm cover the the body. The animal
+            gives the impression of naked, but feels like micro wool to the
+            touch e.g. Galaxy, Lena
+          </div>
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            <Image src={galaxy} alt="Galaxy" className="w-full" />
+          </div>
+        </div>
+        <h2>Flock.</h2>
+        <div className="flex w-full">
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            Light flock. Small thin micro-hairs to 0.2 cm. cover the body.
+            Longer hairs on the feet, may have whiskers e.g. Vivien
+          </div>
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            <Image src={vivien} alt="Vivien" className="w-full" />
+          </div>
+        </div>
+        <h2>Velours-point</h2>
+        <p>
+          The body is like light velour or flock to the touch. Paws and muzzle
+          may be covered with thick, short, soft fur up to 0.4 cm.
+        </p>
+        <h2>Velours down</h2>
+        <div className="flex w-full">
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            The body is covered with soft fur up to 0.4 mm. Long soft, twisted
+            hair on the chest, behind the ears, legs, hips, tail. Note: One of
+            the more “changing” variations (see note on Don Sphynx fur). e.g.
+            Anton
+          </div>
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            <Image src={anton} alt="Anton" className="w-full" />
+          </div>
+        </div>
+        <h2>Brush</h2>
+        <div className="flex w-full">
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            Brush–velours. The body is covered with short, thick, rare, hard
+            hair up to 0.5 cm. Spots with no hair may be found on the back,
+            sides, neck. e.g. Kiona
+          </div>
+          <div className="flex-2 p-2 border-gray-400 border-t">
+            <Image src={kiona} alt="Kiona" className="w-full" />
+          </div>
+        </div>
+        <h2>Brush-point</h2>
+        <p>
+          The body is like light velour or flock. Paws, muzzle, tail are covered
+          with dense thick crimped short (as in Rex) or straight bristly hair.
+        </p>
+        <h2>Brush thick</h2>
+        <p>
+          All over the body there is a thick bristly coat (the skin is
+          practically not visible). Chest, legs, hips, tail may be covered with
+          long hard thick fur. “Bushy tail.”
+        </p>
       </main>
       <Footer />
     </div>
