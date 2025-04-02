@@ -10,7 +10,7 @@ export default function FemalesVivien() {
   return (
     <div className={styles.pageContainerDiv}>
       <Header />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
         <h1>Black Diamond Vivien</h1>
         <p>Imported from Ukraine. Mother of three litters and now retired.</p>
         <ul>

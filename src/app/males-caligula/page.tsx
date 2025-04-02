@@ -12,7 +12,7 @@ export default function MalesCaligula() {
   return (
     <div className={styles.pageContainerDiv}>
       <Header />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
         <h1>Caligula MIF*RU</h1>
 
         <p>

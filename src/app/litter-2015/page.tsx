@@ -12,7 +12,7 @@ export default function Litter2015() {
   return (
     <div className={styles.pageContainerDiv}>
       <Header />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
         <h1>Litter A 2015</h1>
         Date of birth: 2015-03-03
         <p>Mother: Black Diamond Vivien</p>

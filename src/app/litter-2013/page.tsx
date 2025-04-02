@@ -10,7 +10,7 @@ export default function Litter2013() {
   return (
     <div className={styles.pageContainerDiv}>
       <Header />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
         <h1>Litter L 2013</h1>
         <p>Date of birth: 2013-03-31</p>
 

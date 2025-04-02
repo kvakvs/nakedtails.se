@@ -8,7 +8,7 @@ export default function KittensForSale() {
   return (
     <div className={styles.pageContainerDiv}>
       <Header />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
         <h1>Kittens for Sale</h1>
 
         <Image src={expecting} alt="Expecting... not expecting yet" />

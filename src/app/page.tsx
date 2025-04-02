@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.pageContainerDiv}>
       <Header />
-      <main className="flex flex-col gap-[32px] pt-8 row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-4 pt-8 row-start-2 items-center sm:items-start">
         <p>
           We are small private cattery located in Stockholm, Sweden. We have{" "}
           <a href="https://www.instagram.com/naked_tails_cattery/">Instagram</a>

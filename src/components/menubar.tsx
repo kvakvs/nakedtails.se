@@ -64,10 +64,6 @@ const menuItems: MenuItem[] = [
       { label: "Kiona MIF*RU", href: "/rip-kiona" },
     ],
   },
-  {
-    label: "Contact",
-    href: "/contact",
-  },
 ];
 
 const MenuBar = () => {
