@@ -20,8 +20,8 @@ export default function FemalesVivien() {
           <li>FeLV/FIP/FIV — negative</li>
           <li>Bloodgroup A</li>
         </ul>
-        <Image src={vivien1} alt="Black Diamond Vivien" />
-        <Image src={vivien2} alt="Black Diamond Vivien" />
+        <Image unoptimized src={vivien1} alt="Black Diamond Vivien" />
+        <Image unoptimized src={vivien2} alt="Black Diamond Vivien" />
       </main>
       <Footer />
     </div>

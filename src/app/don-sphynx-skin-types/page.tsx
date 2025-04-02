@@ -30,7 +30,7 @@ export default function DonSphynxSkinTypes() {
           </div>
 
           <div className="flex-2 p-2 border-gray-400 border-t">
-            <Image src={lana} alt="Lana" className="w-full" />
+            <Image unoptimized src={lana} alt="Lana" className="w-full" />
           </div>
         </div>
         <h2>Naked “undressing”.</h2>
@@ -40,7 +40,7 @@ export default function DonSphynxSkinTypes() {
             “proper naked” may have whiskers e.g. Bolero, Alex, Axel, Aston
           </div>
           <div className="flex-2 p-2 border-gray-400 border-t">
-            <Image src={bolero} alt="Bolero" className="w-full" />
+            <Image unoptimized src={bolero} alt="Bolero" className="w-full" />
             <Image
               src={nakedUndressing2}
               alt="A litter of still fuzzy kittens"
@@ -56,7 +56,7 @@ export default function DonSphynxSkinTypes() {
             touch e.g. Galaxy, Lena
           </div>
           <div className="flex-2 p-2 border-gray-400 border-t">
-            <Image src={galaxy} alt="Galaxy" className="w-full" />
+            <Image unoptimized src={galaxy} alt="Galaxy" className="w-full" />
           </div>
         </div>
         <h2>Flock.</h2>
@@ -66,7 +66,7 @@ export default function DonSphynxSkinTypes() {
             Longer hairs on the feet, may have whiskers e.g. Vivien
           </div>
           <div className="flex-2 p-2 border-gray-400 border-t">
-            <Image src={vivien} alt="Vivien" className="w-full" />
+            <Image unoptimized src={vivien} alt="Vivien" className="w-full" />
           </div>
         </div>
         <h2>Velours-point</h2>
@@ -83,7 +83,7 @@ export default function DonSphynxSkinTypes() {
             Anton
           </div>
           <div className="flex-2 p-2 border-gray-400 border-t">
-            <Image src={anton} alt="Anton" className="w-full" />
+            <Image unoptimized src={anton} alt="Anton" className="w-full" />
           </div>
         </div>
         <h2>Brush</h2>
@@ -94,7 +94,7 @@ export default function DonSphynxSkinTypes() {
             sides, neck. e.g. Kiona
           </div>
           <div className="flex-2 p-2 border-gray-400 border-t">
-            <Image src={kiona} alt="Kiona" className="w-full" />
+            <Image unoptimized src={kiona} alt="Kiona" className="w-full" />
           </div>
         </div>
         <h2>Brush-point</h2>

@@ -20,8 +20,8 @@ export default function RipBolero() {
         <p>Race and color: DSP a (blue) naked</p>
         <p>Champion in FIFE</p>
 
-        <Image src={bolero} alt="Bolero" />
-        <Image src={bolero2} alt="Bolero" />
+        <Image unoptimized src={bolero} alt="Bolero" />
+        <Image unoptimized src={bolero2} alt="Bolero" />
       </main>
       <Footer />
     </div>

@@ -27,8 +27,8 @@ export default function Litter2013() {
             Lena (female) DSP a (blue) flock. Moved to her new home in Sweden.
           </li>
         </ul>
-        <Image src={lena1} alt="Kittens: Lena" />
-        <Image src={lena2} alt="Kittens: Lena" />
+        <Image unoptimized src={lena1} alt="Kittens: Lena" />
+        <Image unoptimized src={lena2} alt="Kittens: Lena" />
 
         <ul>
           <li>
@@ -36,7 +36,7 @@ export default function Litter2013() {
             her owners.
           </li>
         </ul>
-        <Image src={lana1} alt="Kittens: Lana" />
+        <Image unoptimized src={lana1} alt="Kittens: Lana" />
       </main>
       <Footer />
     </div>

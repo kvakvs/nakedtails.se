@@ -27,11 +27,11 @@ export default function MalesCaligula() {
           <li>Bloodgroup A</li>
         </ul>
       </main>
-      <Image src={caligula1} alt="Caligula" />
-      <Image src={caligula2} alt="Caligula" />
-      <Image src={caligula3} alt="Caligula" />
-      <Image src={caligula4} alt="Caligula" />
-      <Image src={caligula5} alt="Caligula" />
+      <Image unoptimized src={caligula1} alt="Caligula" />
+      <Image unoptimized src={caligula2} alt="Caligula" />
+      <Image unoptimized src={caligula3} alt="Caligula" />
+      <Image unoptimized src={caligula4} alt="Caligula" />
+      <Image unoptimized src={caligula5} alt="Caligula" />
       <Footer />
     </div>
   );

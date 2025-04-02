@@ -22,35 +22,35 @@ export default function Litter2015() {
         <p>Axel — SOLD</p>
         <p>Aston — SOLD</p>
         <p>Anton — SOLD</p>
-        <Image src={kittens1} alt="Kittens: Litter A 2015" />
+        <Image unoptimized src={kittens1} alt="Kittens: Litter A 2015" />
         <ul>
           <li>
             Alex Naked Tails (male) DSP n (black) naked. Moved to his new home
             in Sweden.
           </li>
         </ul>
-        <Image src={alex1} alt="Kittens: Alex" />
+        <Image unoptimized src={alex1} alt="Kittens: Alex" />
         <ul>
           <li>
             Axel Naked Tails (male) DSP n (black) naked. Moved to his new home
             in Sweden.
           </li>
         </ul>
-        <Image src={axel1} alt="Kittens: Axel" />
+        <Image unoptimized src={axel1} alt="Kittens: Axel" />
         <ul>
           <li>
             Anton Naked Tails (male) DSP n (black) flock. Moved to his new home
             in Sweden.
           </li>
         </ul>
-        <Image src={anton1} alt="Kittens: Anton" />
+        <Image unoptimized src={anton1} alt="Kittens: Anton" />
         <ul>
           <li>
             Aston Naked Tails (male) DSP n (black) naked. Moved to his new home
             in Sweden.
           </li>
         </ul>
-        <Image src={aston1} alt="Kittens: Aston" />
+        <Image unoptimized src={aston1} alt="Kittens: Aston" />
       </main>
       <Footer />
     </div>

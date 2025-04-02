@@ -23,12 +23,12 @@ export default function RipTango() {
         <p>Breeder — Iryna Nemykina.</p>
         <p>Date of birth: 2013-11-25</p>
         <p>Died: 2017-12-02</p>
-        <Image src={tango} alt="Tango" />
-        <Image src={tango2} alt="Tango" />
-        <Image src={tango3} alt="Tango" />
-        <Image src={tango4} alt="Tango" />
-        <Image src={tango5} alt="Tango" />
-        <Image src={tango6} alt="Tango" />
+        <Image unoptimized src={tango} alt="Tango" />
+        <Image unoptimized src={tango2} alt="Tango" />
+        <Image unoptimized src={tango3} alt="Tango" />
+        <Image unoptimized src={tango4} alt="Tango" />
+        <Image unoptimized src={tango5} alt="Tango" />
+        <Image unoptimized src={tango6} alt="Tango" />
       </main>
       <Footer />
     </div>

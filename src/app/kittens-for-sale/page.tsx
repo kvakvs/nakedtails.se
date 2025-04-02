@@ -11,7 +11,11 @@ export default function KittensForSale() {
       <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
         <h1>Kittens for Sale</h1>
 
-        <Image src={expecting} alt="Expecting... not expecting yet" />
+        <Image
+          unoptimized
+          src={expecting}
+          alt="Expecting... not expecting yet"
+        />
 
         <p>
           At this time we do not have kittens for sale, but more may be coming.

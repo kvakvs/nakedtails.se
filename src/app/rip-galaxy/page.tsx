@@ -21,10 +21,10 @@ export default function RipGalaxy() {
         <p>Date of birth: 2013-12-02.</p>
         <p>Died: 2019-10-17</p>
         <p>Race and color: DSP g (blue tortie) naked</p>
-        <Image src={galaxy} alt="Galaxy" />
-        <Image src={galaxy2} alt="Galaxy" />
-        <Image src={galaxy3} alt="Galaxy" />
-        <Image src={galaxy4} alt="Galaxy" />
+        <Image unoptimized src={galaxy} alt="Galaxy" />
+        <Image unoptimized src={galaxy2} alt="Galaxy" />
+        <Image unoptimized src={galaxy3} alt="Galaxy" />
+        <Image unoptimized src={galaxy4} alt="Galaxy" />
       </main>
       <Footer />
     </div>

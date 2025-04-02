@@ -23,11 +23,11 @@ export default function RipKiona() {
         <p>Date of birth: 2011-12-21.</p>
         <p>Died: 2022-11-18</p>
         <p>Race and color: DSP a 09 (blue with white) brush</p>
-        <Image src={kiona} alt="Kiona" />
-        <Image src={kiona2} alt="Kiona" />
-        <Image src={kiona3} alt="Kiona" />
-        <Image src={kiona4} alt="Kiona" />
-        <Image src={kiona5} alt="Kiona" />
+        <Image unoptimized src={kiona} alt="Kiona" />
+        <Image unoptimized src={kiona2} alt="Kiona" />
+        <Image unoptimized src={kiona3} alt="Kiona" />
+        <Image unoptimized src={kiona4} alt="Kiona" />
+        <Image unoptimized src={kiona5} alt="Kiona" />
       </main>
       <Footer />
     </div>

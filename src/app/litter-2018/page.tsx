@@ -25,7 +25,7 @@ export default function Litter2018() {
         <p>Bulle — SOLD</p>
         <p>Biscuit — SOLD</p>
 
-        <Image src={kittens1} alt="Kittens: Litter B 2018" />
+        <Image unoptimized src={kittens1} alt="Kittens: Litter B 2018" />
 
         <ul>
           <li>
@@ -33,8 +33,8 @@ export default function Litter2018() {
             home in Sweden.
           </li>
         </ul>
-        <Image src={bulle1} alt="Kittens: Bulle" />
-        <Image src={bulle2} alt="Kittens: Bulle" />
+        <Image unoptimized src={bulle1} alt="Kittens: Bulle" />
+        <Image unoptimized src={bulle2} alt="Kittens: Bulle" />
 
         <ul>
           <li>
@@ -42,8 +42,8 @@ export default function Litter2018() {
             home in Sweden.
           </li>
         </ul>
-        <Image src={biscuit1} alt="Kittens: Biscuit" />
-        <Image src={biscuit2} alt="Kittens: Biscuit" />
+        <Image unoptimized src={biscuit1} alt="Kittens: Biscuit" />
+        <Image unoptimized src={biscuit2} alt="Kittens: Biscuit" />
       </main>
       <Footer />
     </div>
